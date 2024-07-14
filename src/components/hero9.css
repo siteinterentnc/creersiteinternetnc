@@ -1,0 +1,82 @@
+.hero9-header30 {
+  gap: var(--dl-space-space-twounits);
+}
+.hero9-image {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+}
+.hero9-container {
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("/symbole-arbre-de-vie-signification-1024x576-3309628053%20(1)-1500w.jpg");
+  background-position: center;
+}
+.hero9-max-width {
+  gap: var(--dl-space-space-oneandhalfunits);
+  width: 100%;
+  display: flex;
+  z-index: 1;
+  align-items: center;
+  flex-direction: column;
+}
+.hero9-content {
+  gap: var(--dl-space-space-oneandhalfunits);
+  display: flex;
+  align-self: stretch;
+  align-items: center;
+  flex-direction: column;
+}
+.hero9-text {
+  text-align: center;
+}
+.hero9-text1 {
+  text-align: center;
+}
+.hero9-actions {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-items: flex-start;
+}
+.hero9-link {
+  color: #366164;
+  width: auto;
+  height: auto;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  text-decoration: none;
+  background-color: rgb(78, 187, 174);
+}
+@media(max-width: 991px) {
+  .hero9-text {
+    text-align: center;
+  }
+  .hero9-text1 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .hero9-header30 {
+    padding-top: var(--dl-space-space-sixunits);
+  }
+}
+@media(max-width: 479px) {
+  .hero9-actions {
+    width: 100%;
+    flex-direction: column;
+  }
+}

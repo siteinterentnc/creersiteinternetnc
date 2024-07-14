@@ -1,0 +1,12 @@
+.section-heading11-section-heading {
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-threeunits);
+  flex-direction: column;
+}
+.section-heading11-text {
+  text-align: center;
+  margin-bottom: var(--dl-space-space-unit);
+}
+
